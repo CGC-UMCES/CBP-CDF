@@ -54,6 +54,7 @@ not need to modify utils.py or Decipher.py.
 ![alt_text](Images/Picture3.png)
 
 
+
 **Checking Data Saved in NetCDF**
 
 -   **Reader Script:** netCDFReader.py
@@ -66,17 +67,20 @@ probe_GUI.py provides an interface for exploring the data. It enables
 users to identify the nearest six grid points to a selected location and
 visualize basic time series plots based on the selected point.
 
-*GUI Interface Example
-
 ![alt_text](Images/Picture4.png)
+
+*GUI Interface Example
 ![alt_text](Images/Picture5.png)
 ![alt_text](Images/Picture6.png)
+
 
 **Compare the NetCDF output with Fortran output**
 
 -   **Fortran Script:** skill_r223_mde_allv.f(not provided here, please request it from Richard Tian)
 
 -   **We provide some sample output from Fortran and do comparison:** See Fortran output.xlsx
+
+
 
 **Select Mornitoring Station and do the Comparison of the Observation and Near Simulation Grid Time Series Data**
 
