@@ -61,14 +61,14 @@ not need to modify utils.py or Decipher.py.
 -   **GUI Tool:** probe_GUI.py
 
 The netCDFReader.py script allows you to read and verify the NetCDF
-output, which contains time series data with one variable per file. The
+output, which contains time series data with all variables available from the simulation output. The
 probe_GUI.py provides an interface for exploring the data. It enables
 users to identify the nearest six grid points to a selected location and
 visualize basic time series plots based on the selected point.
 
-*You should see below like this in your terminal:
+*GUI Interface Example
 
-![alt_text](Images/Picture.png)
+![alt_text](Images/Picture4.png)
 ![alt_text](Images/Picture5.png)
 ![alt_text](Images/Picture6.png)
 
@@ -77,3 +77,21 @@ visualize basic time series plots based on the selected point.
 -   **Fortran Script:** skill_r223_mde_allv.f(not provided here, please request it from Richard Tian)
 
 -   **We provide some sample output from Fortran and do comparison:** See Fortran output.xlsx
+
+**Probe the Time Series Data of Mornitoring Station and do the Comparison of the Observation and Near Simulation Grid Time Series Data**
+
+-   **GUI Tool:** ObsVSSim.py
+
+-   **Data needs:** 1. Simulation Output (the deciphered netCDF file)
+                    2. Observation Data (wq_do_chla_po4.csv, etc)
+*GUI Interface Example
+
+![alt_text](Images/Picture7.png)
+![alt_text](Images/Picture8.png)
+![alt_text](Images/Picture9.png)
+![alt_text](Images/Picture10.png)
+![alt_text](Images/Picture11.png)
+![alt_text](Images/Picture12.png)
+
+
+
