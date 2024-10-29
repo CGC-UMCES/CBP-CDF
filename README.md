@@ -17,7 +17,7 @@ Fortran. The col_cbay_56920.dat and col_cbay_56920xy.csv files provide
 the mapping between Cell_ID, I, J, Layer#, UTM-X, and UTM-Y. Richard
 Tian also provided a Fortran77 code to read the binary output. Our goal
 is to write a Python script that deciphers the wqm_apl.run file and
-converts the time series data for each variable into a NetCDF format,
+converts the time series data for all variable into a NetCDF format,
 ensuring it is accessible and sustainable for future use.
 
 **Code Structure**
