@@ -54,7 +54,6 @@ not need to modify utilsV2.py or Decipher.py.
 *You should see below in your terminal:
 ![alt_text](Images/Picture2.png)
 *...*
-![alt_text](Images/Picture3.png)
 
 
 
