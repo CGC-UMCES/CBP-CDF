@@ -12,6 +12,9 @@ sustainable NetCDF format for future use. The files required are:
 
 3.  wqm_apl.run
 
+4.  WQ_cells_11064_xy_area.xlsx (Optional is you need Area for each Cell_ID)
+
+
 The wqm_apl.run file contains binary unformatted output data written in
 Fortran. The col_cbay_56920.dat and col_cbay_56920xy.csv files provide
 the mapping between Cell_ID, I, J, Layer#, UTM-X, and UTM-Y. Richard
@@ -41,12 +44,12 @@ for each cell. This CSV file is essential for the next step.\
 
 -   **Main Script:** Decipher.py
 
--   **Utility Script:** utils.py
+-   **Utility Script:** utilsV2.py
 
 Modify the config.json file to specify parameters such as the output
 directory. Then, run Decipher.py, which uses functions defined in
 utils.py and the configurations set in config.json. Generally, you do
-not need to modify utils.py or Decipher.py.
+not need to modify utilsV2.py or Decipher.py.
 
 *You should see below in your terminal:
 ![alt_text](Images/Picture2.png)
