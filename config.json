@@ -6,8 +6,8 @@
         "factor_kadpo4": 1.0,
         "nsbp": 11064, 
         "nwcbox":56920,
-        "output_directory": "/Users/xiaoxug/CBP-Decipher/netCDF_Output",
-        "file_name": "All_Var"
+        "output_directory": "/data/xguo/merrill/Run/netCDF_Output/basetest",
+        "file_name": "Year10"
     },
     "data_dimensions": {
         "dim_c1_array": 36,
@@ -115,7 +115,7 @@
     ],
     "simulation_parameters": {
         "start_jday": 1,
-        "end_jday": 365,
+        "end_jday": 2,
         "utm_zone": 18,
         "var_names": [
             "T", "S", "ISS", "Diatom", "Agreen", "Cyano", "LDOC", "LPOC", "RPOC", 
@@ -135,8 +135,9 @@
         "start_year": 1990,
         "start_month": 12,
         "start_day": 31,
-        "binary_filename": "/Users/xiaoxug/Desktop/wql/wqm_apl.run",
-        "csv_file": "/Users/xiaoxug/CBP-Decipher/Cell2LonLat.csv",
+        "binary_filename": "/data/xguo/merrill/Run/data/wqm_apl.run",
+        "csv_file": "/data/xguo/merrill/Run/Cell2LonLat.csv",
+        "area_file": "/data/xguo/merrill/Run/WQ_cells_11064_xy_area.xlsx",
         "NAC": 28,
         "nwcbox": 56920
     }
